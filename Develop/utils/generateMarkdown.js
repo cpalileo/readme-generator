@@ -2,9 +2,11 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
-      return "https://opensource.org/licenses/MIT";
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]";
     case "GNU GPL 3.0":
-      return "https://opensource.org/licenses/GPL-3.0";
+      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
+    case "Unlicense":
+      return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
     default:
       return "";
   }
@@ -12,18 +14,16 @@ function renderLicenseBadge(license) {
 
 // ----License link---- //
 
-function renderLicenseLink(license) {}
-switch (license) {
-  case "MIT":
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]";
-  case "GNU GPL 3.0":
-    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
-  case "Unlicense":
-    return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
-  default:
-    return "";
+function renderLicenseLink(license) {
+  switch (license) {
+    case "MIT":
+      return "[https://opensource.org/licenses/MIT]";
+    case "GNU GPL 3.0":
+      return "[https://opensource.org/licenses/GPL-3.0]";
+    default:
+      return "";
+  }
 }
-
 // ----Return license info to readme---- //
 
 function renderLicenseSection(license) {
@@ -32,8 +32,11 @@ function renderLicenseSection(license) {
 
 // ----Generate markdown for README---- //
 function generateMarkdown(data) {
-  return `# ${data.title}
-
+  return `# ${data.title} 
+  
+    ## Description
+    ${data.description}
+  
   ## Table of Contents
   * [Description](#Description)
   * [Installation](#Installation-Instructions)
@@ -41,11 +44,6 @@ function generateMarkdown(data) {
   * [License](#License)
   * [Contributing Members](#Contributing-Members)
   * [Testing](#Testing)    
-  * [Questions/Inquiries](#Questions/Inquiries)
-
-  ## Description
-  ${data.description}
-
 
   ## Installation Instructions 
   ${data.installation}
@@ -55,14 +53,15 @@ function generateMarkdown(data) {
 
   ## License
   ${data.license}
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}
+
 
   ## Contributing Members
   ${data.contributors}
 
   ## Testing 
    ${data.test}
-
-  ## Questions/Inquiries 
 
   ### GitHub Profile
   [GitHub Profile](http://github.com/${data.github})
