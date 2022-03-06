@@ -1,37 +1,43 @@
-# test 
-  
+# README Generator
+
     ## Description
-    test
-  
-  ## Table of Contents
-  * [Description](#Description)
-  * [Installation](#Installation-Instructions)
-  * [Usage Instructions](#Usage-Instructions)
-  * [License](#License)
-  * [Contributing Members](#Contributing-Members)
-  * [Testing](#Testing)    
+    Homework assignment to create an app that generates readme files
 
-  ## Installation Instructions 
-  test
+## Table of Contents
 
-  ## Usage Instructions
-  test
+- [Description](#Description)
+- [Installation](#Installation-Instructions)
+- [Usage Instructions](#Usage-Instructions)
+- [License](#License)
+- [Contributing Members](#Contributing-Members)
+- [Testing](#Testing)
 
-  ## License
-  MIT License
-  MIT License
+## Installation Instructions
 
-  
+inquirer, fs, generateMarkdown.js (local file)
 
+## Usage Instructions
 
-  ## Contributing Members
-  test
+At command prompt type in <node index.js>
 
-  ## Testing 
-   test
+## License
 
-  ### GitHub Profile
-  [GitHub Profile](http://github.com/test)
+MIT License
 
-  ### Email
-  test
+## Contributing Members
+
+Xander Rapstine, Christopher Palileo
+
+## Testing
+
+n/a
+
+### GitHub Profile
+
+[GitHub Profile](https://github.com/cpalileo/readme-generator
+
+### Email
+
+cpalileo@gmail.com
+
+### Video Demonstration
