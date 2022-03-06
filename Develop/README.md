@@ -34,10 +34,12 @@ n/a
 
 ### GitHub Profile
 
-[GitHub Profile](https://github.com/cpalileo/readme-generator
+[GitHub Profile](https://github.com/cpalileo/readme-generator)
 
 ### Email
 
 cpalileo@gmail.com
 
-### Video Demonstration
+### Video Sample in Place of Screenshot
+
+[Video demonstration] (https://drive.google.com/file/d/1foTUF5G1Q5tH_DHQBuAiFEyYaT6CP8J8/view?usp=sharing)
