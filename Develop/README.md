@@ -1,45 +1,37 @@
-# README Generator
-
+# PlaylistAnt 
+  
     ## Description
-    Homework assignment to create an app that generates readme files
+    A cross service playlist generator that has the ability to generate dynamic playlists capable of even meshing polarizing musical genres.  
+  
+  ## Table of Contents
+  * [Description](#Description)
+  * [Installation](#Installation-Instructions)
+  * [Usage Instructions](#Usage-Instructions)
+  * [License](#License)
+  * [Contributing Members](#Contributing-Members)
+  * [Testing](#Testing)    
 
-## Table of Contents
+  ## Installation Instructions 
+  Apollo Server Express, bCrypt, dotEnv, Express, Faker, GraphQL, JasonWebToken, Mongoose, Spotify Web API, JWT Decode, React Router Dom
 
-- [Description](#Description)
-- [Installation](#Installation-Instructions)
-- [Usage Instructions](#Usage-Instructions)
-- [License](#License)
-- [Contributing Members](#Contributing-Members)
-- [Testing](#Testing)
+  ## Usage Instructions
+  In the root folder run 'npm install'
 
-## Installation Instructions
+  ## License
+  MIT License
+  MIT License
 
-inquirer, fs, generateMarkdown.js (local file)
+  
 
-## Usage Instructions
 
-At command prompt type in <node index.js>
+  ## Contributing Members
+  Christopher Palileo, Justin Teats, Sally Chan
 
-## License
+  ## Testing 
+   NA
 
-MIT License
+  ### GitHub Profile
+  [GitHub Profile](http://github.com/http://github.com/cpalileo/PlaylistAnt)
 
-## Contributing Members
-
-Xander Rapstine, Christopher Palileo
-
-## Testing
-
-n/a
-
-### GitHub Profile
-
-[GitHub Profile](https://github.com/cpalileo/readme-generator)
-
-### Email
-
-cpalileo@gmail.com
-
-### Video Sample in Place of Screenshot
-
-[Video demonstration] (https://drive.google.com/file/d/1foTUF5G1Q5tH_DHQBuAiFEyYaT6CP8J8/view?usp=sharing)
+  ### Email
+  cpalileo@gmail.com
