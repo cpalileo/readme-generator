@@ -50,8 +50,23 @@ const content = [
   },
   {
     type: "input",
+    message: "Input a link to the live project if available.",
+    name: "live",
+  },
+  {
+    type: "input",
     message: "What is your contact email address?",
     name: "email",
+  },
+  {
+    type: "input",
+    message: "Do you have a link to a screenshot?",
+    name: "screenshot",
+  },
+  {
+    type: "input",
+    message: "Do you have a link to a video demo?",
+    name: "video",
   },
 ];
 
